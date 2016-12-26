@@ -26,4 +26,14 @@ public class TrackCoach implements Coach {
 
     }
 
+    // add an init method
+    public void doMyStartupStuff() {
+        System.out.println( "TrackCoach: inside init method" );
+    }
+
+    // add a destroy method
+    public void doMyCleanupStuff() {
+        System.out.println( "TrackCoach: inside the destroy method" );
+    }
+
 }
